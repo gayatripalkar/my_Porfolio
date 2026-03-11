@@ -1,0 +1,84 @@
+Project
+Instagram User Analytics
+SQL Fundamentals
+Difficulty Level:     3/5
+Description:
+Imagine you're a data analyst working with the product team at Instagram. Your role involves analyzing user interactions and engagement with the Instagram app to provide valuable insights that can help the business grow.
+User analysis involves tracking how users engage with a digital product, such as a software application or a mobile app. The insights derived from this analysis can be used by various teams within the business. For example, the marketing team might use these insights to launch a new campaign, the product team might use them to decide on new features to build, and the development team might use them to improve the overall user experience.
+In this project, you'll be using SQL and MySQL Workbench as your tool to analyze Instagram user data and answer questions posed by the management team. Your insights will help the product manager and the rest of the team make informed decisions about the future direction of the Instagram app.
+Remember, the goal of this project is to use your SQL skills to extract meaningful insights from the data. Your findings could potentially influence the future development of one of the world's most popular social media platforms.
+
+SQL Tasks :
+A) Marketing Analysis:
+
+1. Loyal User Reward: The marketing team wants to reward the most loyal users, i.e., those who have been using the platform for the longest time.
+Your Task: Identify the five oldest users on Instagram from the provided database.
+SELECT 
+username, created_at
+FROM
+    users
+ORDER BY created_at ASC
+LIMIT 5;
+
+2. Inactive User Engagement: The team wants to encourage inactive users to start posting by sending them promotional emails.
+Your Task: Identify users who have never posted a single photo on Instagram.
+
+3. Contest Winner Declaration: The team has organized a contest where the user with the most likes on a single photo wins.
+Your Task: Determine the winner of the contest and provide their details to the team.
+
+4. Hashtag Research: A partner brand wants to know the most popular hashtags to use in their posts to reach the most people.
+Your Task: Identify and suggest the top five most commonly used hashtags on the platform.
+
+5. Ad Campaign Launch: The team wants to know the best day of the week to launch ads.
+Your Task: Determine the day of the week when most users register on Instagram. Provide insights on when to schedule an ad campaign.
+
+B) Investor Metrics:
+
+6. User Engagement: Investors want to know if users are still active and posting on Instagram or if they are making fewer posts.
+Your Task: Calculate the average number of posts per user on Instagram. Also, provide the total number of photos on Instagram divided by the total number of users.
+
+7. Bots & Fake Accounts: Investors want to know if the platform is crowded with fake and dummy accounts.
+Your Task: Identify users (potential bots) who have liked every single photo on the site, as this is not typically possible for a normal user.
+
+
+
+How to do this Project?
+Create a Database: Start by running the provided commands to create the necessary database for the project. The database file has been provided in the attachments.
+Perform Analysis: Utilize SQL to perform the analysis and answer the questions mentioned in the project description. Use SQL queries to extract the required information from the database, ensuring the accuracy and efficiency of the queries.
+Submit a Report: Prepare a report in PDF or PowerPoint format that will be presented to the leadership team. The report should include the following sections:
+
+Note: Make sure you mention the SQL Queries along with the outputs in the report. You can take snapshots of the SQL Queries and the outputs. It is advised to do the project in MySQL Workbench.
+
+Project Description
+Provide a brief overview of the project, explaining its purpose and the approach you will take to handle the tasks and derive insights.
+Approach
+Describe your approach towards the project and how you executed it. Explain the steps you took to analyze the data and find the answers to the questions.
+Tech-Stack Used
+Specify the software and versions you used for the project (e.g., MySQL Workbench, SQL Server Management Studio) and briefly explain why you chose them for the project.
+Insights
+Summarize the insights and knowledge you gained while working on the project. Explain the inferences you made from the data, highlighting any significant findings or patterns. Keep the insights concise and relevant to the project.
+Result
+State the achievements you accomplished through the project and how it has benefited you or provided valuable information. Share your thoughts on the impact of the analysis and the insights derived from it.
+Drive Link
+State the achievements you accomplished through the project and how it has benefited you or provided valuable information. Share your thoughts on the impact of the analysis and the insights derived from it.
+How to Submit your Project:
+Step 1 Do your project in PPT/PDF. It’s your choice. For PDF, write your project in Ms Word, then save the file in PDF format. You will find the option in the ‘Save As’ Box.
+
+Step 2 Now, upload the file i.e., PPT/PDF on your google drive. It would be wise to create a Single Folder and Name it “Trainity Assignments”. Inside that folder, create another Folder name “Project Name”. Upload your assignment there.
+
+Step 3 Right Click on the File, and select ‘Get Link’ under ‘Share’. A Dialog Box will Pop up. Inside the Box, Under General Access, Change ‘Restricted’ to ‘Anyone with the Link’. No need to change anything else.
+
+Step 4 Click on ‘Copy Link’.
+
+Step 5 Now paste the link in the Drive Link box when submitting the project.
+
+Judgement Criteria:
+SQL Understanding
+The SQL queries used should produce correct outputs and be easily understandable. Ensure that the queries are accurate, efficient, and properly structured to extract the required information from the database.
+Case study completion
+Answer all the questions provided in the project description fully and accurately. Make sure to address each question comprehensively, providing correct and relevant answers.
+Insights
+Utilize your own imagination and analytical skills to answer the case study questions while adding your own insights and interpretations. Demonstrate creativity and critical thinking in deriving meaningful conclusions from the data.
+Plagiarism
+The project must be your original work and should not be copied from the internet or any other source. Ensure that the analysis, findings, and report are based on your own analysis, interpretation, and visualization skills.
+These criteria will be used to evaluate your project. Make sure to follow the instructions, showcase your SQL expertise, complete the case study, provide valuable insights, and submit original work.
