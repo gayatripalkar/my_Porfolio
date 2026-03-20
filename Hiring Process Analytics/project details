@@ -1,0 +1,99 @@
+Hiring Process Analytics
+Statistics
+Difficulty Level:     3/5
+Description:
+Imagine you're a data analyst at a multinational company like Google. Your task is to analyze the company's hiring process data and draw meaningful insights from it. The hiring process is a crucial function of any company, and understanding trends such as the number of rejections, interviews, job types, and vacancies can provide valuable insights for the hiring department.
+
+As a data analyst, you'll be given a dataset containing records of previous hires. Your job is to analyze this data and answer certain questions that can help the company improve its hiring process.
+
+Here's what you'll be doing:
+Handling Missing Data: Check if there are any missing values in the dataset. If there are, decide on the best strategy to handle them.
+Clubbing Columns: If there are columns with multiple categories that can be combined, do so to simplify your analysis.
+Outlier Detection: Check for outliers in the dataset that may skew your analysis.
+Removing Outliers: Decide on the best strategy to handle outliers. This could be removing them, replacing them, or leaving them as is, depending on the situation.
+Data Summary: After cleaning and preparing your data, summarize your findings. This could involve calculating averages, medians, or other statistical measures. It could also involve creating visualizations to better understand the data.
+Remember, the goal of this project is to use your knowledge of statistics and Excel to draw meaningful conclusions about the company's hiring process. Your insights could potentially help the company improve its hiring process and make better hiring decisions in the future.
+
+Data Analytics Tasks:
+After downloading the dataset, use Excel to answer the below questions:
+A. Hiring Analysis: The hiring process involves bringing new individuals into the organization for various roles.
+
+Your Task: Determine the gender distribution of hires. How many males and females have been hired by the company?
+
+B. Salary Analysis: The average salary is calculated by adding up the salaries of a group of employees and then dividing the total by the number of employees.
+
+Your Task: What is the average salary offered by this company? Use Excel functions to calculate this.
+
+C. Salary Distribution: Class intervals represent ranges of values, in this case, salary ranges. The class interval is the difference between the upper and lower limits of a class.
+
+Your Task: Create class intervals for the salaries in the company. This will help you understand the salary distribution.
+
+D. Departmental Analysis: Visualizing data through charts and plots is a crucial part of data analysis.
+
+Your Task: Use a pie chart, bar graph, or any other suitable visualization to show the proportion of people working in different departments.
+
+E. Position Tier Analysis: Different positions within a company often have different tiers or levels.
+
+Your Task: Use a chart or graph to represent the different position tiers within the company. This will help you understand the distribution of positions across different tiers.
+
+How to do this Project?
+Download the dataset: Begin by downloading the dataset provided for the project. Ensure that you have access to Microsoft Excel for data analysis.
+Perform Analysis: Use Excel to perform the analysis and answer the questions mentioned in the project details.
+Submit a Report: Create a report (PDF/PPT) to present your findings to the leadership team. The report should include the following sections:
+
+Project Description
+Provide a brief overview of the project, its objectives, and the approach you followed.
+Approach
+Explain your approach to the project and how you executed it, including the specific techniques and tools used.
+Tech-Stack Used
+Specify the software and its version (e.g., Microsoft Excel 2022) and mention the purpose of using it.
+Insights
+Summarize the insights and knowledge gained during the project. Discuss key findings and any meaningful trends or patterns discovered.
+Result
+Describe what you achieved through the project and how it has contributed to your understanding of the hiring process analytics.
+Drive Link
+Save your report as a PDF file and upload it to your Google Drive. Set the link visibility to public and provide the sharable link within the report.
+Hyperlink the Excel Sheet file to your report:
+Note: Kindly make sure that you hyperlink the excel file or the link of the google excel sheet to your report. If you want to know the steps, read below:
+
+Step 1: Open your Google Drive account and locate the file you want to link to in your presentation. Right-click on the file and select "Get link." Make sure that the sharing settings for the file are set to "Anyone with the link can view" or "Anyone with the link can edit," depending on your preference.
+
+Step 2: In PowerPoint, navigate to the slide where you want to insert the hyperlink. Highlight the text or object that you want to turn into a hyperlink.
+
+Step 3: Click the "Insert" tab in the top menu bar, then select "Hyperlink."
+
+Step 4: In the "Insert Hyperlink" dialog box, paste the Google Drive link you copied in step 1 into the "Address" field.
+
+Step 5: Click "OK" to insert the hyperlink. You should now see that the text or object you selected in step 2 has been turned into a hyperlink.
+
+Step 6: To test the hyperlink, go into presentation mode by pressing F5 or clicking the "Slide Show" tab and selecting "From Beginning." Click on the hyperlink you just created to make sure it takes you to the correct Google Drive file.
+
+Hyperlink any file in PDF:  Write the project in Ms. Word, format it exactly the way it is instructed in the ‘How to do this Project’ Section, and design the document nicely. Add the link to the required file and hyperlink it. Then save the document as PDF.
+
+Note: Make sure you mention the SQL Queries along with the outputs in the report. You can take snapshots of the SQL Queries and the outputs. It is advised to do the project in MySQL Workbench.
+
+How to Submit your Project:
+Step 1 Do your project in PPT/PDF. It’s your choice. For PDF, write your project in Ms Word, then save the file in PDF format. You will find the option in the ‘Save As’ Box.
+
+Step 2 Now, upload the file i.e., PPT/PDF on your google drive. It would be wise to create a Single Folder and Name it “Trainity Assignments”. Inside that folder, create another Folder name “Project Name”. Upload your assignment there.
+
+Step 3 Right Click on the File, and select ‘Get Link’ under ‘Share’. A Dialog Box will Pop up. Inside the Box, Under General Access, Change ‘Restricted’ to ‘Anyone with the Link’. No need to change anything else.
+
+Step 4 Click on ‘Copy Link’.
+
+Step 5 Now paste the link in the Drive Link box when submitting the project.
+
+Judgement Criteria:
+Data Analytics
+Your answers should demonstrate a strong understanding of data analysis concepts and their real-world applications. Provide relevant points related to data analysis and support your findings with concrete examples and case scenarios.
+Advanced Excel Understanding
+Your spreadsheet should showcase clear explanations of the processes used, including the use of pivot tables, functions, formulas, and other Excel features. Ensure that your analysis is well-structured and easily understandable.
+Statistics Understanding
+Incorporate statistical concepts into your answers, such as using graphs and referencing relevant statistical measures (e.g., mean, median, standard deviation) to support your conclusions.
+Case study completion
+Address all the questions mentioned in the project details, providing comprehensive and accurate answers. Ensure that your responses are complete, covering all the necessary aspects of each question.
+Insights
+Demonstrate your ability to think critically and derive meaningful insights from the data. Present your insights in a concise and coherent manner, providing actionable recommendations based on your analysis.
+Plagiarism
+Submit original work that is not copied from the internet or any other source. Your project should reflect your own analysis and interpretation of the data.
+By following these guidelines and meeting the judgment criteria, you can successfully complete the Excel project on Hiring Process Analytics.
