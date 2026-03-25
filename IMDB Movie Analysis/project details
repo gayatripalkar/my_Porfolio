@@ -1,0 +1,451 @@
+
+columns in Imdb_movies.csv  - color	director_name	num_critic_for_reviews	duration	director_facebook_likes	actor_3_facebook_likes	actor_2_name	actor_1_facebook_likes	gross	genres	actor_1_name	movie_title	num_voted_users	cast_total_facebook_likes	actor_3_name	facenumber_in_poster	plot_keywords	movie_imdb_link	num_user_for_reviews	language	country	content_rating	budget	title_year	actor_2_facebook_likes	imdb_score	aspect_ratio	movie_facebook_likes
+
+remaining columns:
+director_name	num_critic_for_reviews	duration	actor_2_name	actor_1_facebook_likes	gross	genres	actor_1_name	movie_title	num_voted_users	cast_total_facebook_likes	actor_3_name	num_user_for_reviews	language	country	content_rating	budget	title_year	actor_2_facebook_likes	imdb_score	movie_facebook_likes
+
+
+
+https://www.loom.com/share/0ac9a0c592244e1586411e3a90bc795a?sid=4d3fbd85-b894-428d-8fb9-7e7a3360756d
+
+https://burly-lifter-641.notion.site/Video-Presentation-Guide-fda30451eca4474eb79c7b39c87ffb71
+
+
+IMDB Movie Analysis
+Final Project-1
+Difficulty Level:     4/4
+Description:
+Problem Statement: The dataset provided is related to IMDB Movies. A potential problem to investigate could be: "What factors influence the success of a movie on IMDB?" Here, success can be defined by high IMDB ratings. The impact of this problem is significant for movie producers, directors, and investors who want to understand what makes a movie successful to make informed decisions in their future projects.
+
+Data Cleaning: This step involves preprocessing the data to make it suitable for analysis. It includes handling missing values, removing duplicates, converting data types if necessary, and possibly feature engineering.
+
+Data Analysis: Here, you'll explore the data to understand the relationships between different variables. You might look at the correlation between movie ratings and other factors like genre, director, budget, etc. You might also want to consider the year of release, the actors involved, and other relevant factors.
+
+
+
+
+
+Five 'Whys' Approach: This technique will help you dig deeper into the problem. For instance, if you find that movies with higher budgets tend to have higher ratings, you can ask "Why?" repeatedly to uncover the root cause. Here's an example:
+
+Q: "Why do movies with higher budgets tend to have higher ratings?"
+A: They can afford better production quality.
+Q: "Why does better production quality lead to higher ratings?"
+A: It enhances the viewer's experience.
+Q: "Why does an enhanced viewer experience lead to higher ratings?"
+A: Viewers are more likely to rate a movie highly if they enjoyed watching it.
+Q: "Why are viewers more likely to rate a movie highly if they enjoyed watching it?"
+A: Positive experiences lead to positive reviews.
+Q: "Why do positive reviews matter?"
+A: They influence other viewers' decisions to watch the movie, increasing its popularity and success.
+Report and Data Story: After your analysis, you'll create a report that tells a story with your data. This should include your initial problem, your findings, and the insights you've gained. Use visualizations to help tell your story and make your findings more understandable.
+
+Remember, as a data analyst, your goal is not just to answer questions but to provide insights that can drive decision-making. Your analysis should aim to provide actionable insights that can help stakeholders make informed decisions.
+
+
+
+
+
+Data Analytics Tasks:
+You are required to provide a detailed report for the below data record mentioning the answers of the questions that follows:
+
+
+
+A. Movie Genre Analysis: Analyze the distribution of movie genres and their impact on the IMDB score.
+
+Task: Determine the most common genres of movies in the dataset. Then, for each genre, calculate descriptive statistics (mean, median, mode, range, variance, standard deviation) of the IMDB scores.
+Hint: Use Excel's COUNTIF function to count the number of movies for each genre. You might need to manipulate the 'genres' column to separate multiple genres for a single movie. Use Excel's functions like AVERAGE, MEDIAN, MODE, MAX, MIN, VAR, and STDEV to calculate descriptive statistics. Compare the statistics to understand the impact of genre on movie ratings.
+
+
+
+
+B. Movie Duration Analysis: Analyze the distribution of movie durations and its impact on the IMDB score.
+
+Task: Analyze the distribution of movie durations and identify the relationship between movie duration and IMDB score.
+Hint: Calculate descriptive statistics such as mean, median, and standard deviation for movie durations. Use Excel's functions like AVERAGE, MEDIAN, and STDEV. Create a scatter plot to visualize the relationship between movie duration and IMDB score. Add a trendline to assess the direction and strength of the relationship.
+
+
+
+
+
+C. Language Analysis: Situation: Examine the distribution of movies based on their language.
+
+Task: Determine the most common languages used in movies and analyze their impact on the IMDB score using descriptive statistics.
+Hint: Use Excel's COUNTIF function to count the number of movies for each language. Calculate the mean, median, and standard deviation of the IMDB scores for each language. Compare the statistics to understand the impact of language on movie ratings.
+
+
+
+
+D. Director Analysis: Influence of directors on movie ratings.
+
+Task: Identify the top directors based on their average IMDB score and analyze their contribution to the success of movies using percentile calculations.
+Hint: Calculate the average IMDB score for each director. Use Excel's PERCENTILE function to identify the directors with the highest scores. Compare the scores of these directors to the overall distribution of scores.
+
+
+
+
+E. Budget Analysis: Explore the relationship between movie budgets and their financial success.
+
+Task: Analyze the correlation between movie budgets and gross earnings, and identify the movies with the highest profit margin.
+Hint: Calculate the correlation coefficient between movie budgets and gross earnings using Excel's CORREL function. Calculate the profit margin (gross earnings - budget) for each movie and identify the movies with the highest profit margin using Excel's MAX function.
+
+
+
+
+Remember, these tasks are designed to progressively explore different aspects of the dataset and uncover meaningful insights. Each task builds upon the previous one to provide a comprehensive analysis of the IMDB movie data.
+
+
+
+How to do this Project?
+Download the dataset: Begin by downloading the dataset provided for the project. Ensure that you have access to Microsoft Excel for data analysis.
+Perform Analysis: Use Excel to perform the analysis and answer the questions mentioned in the project details.
+Submit a Report: Create a report (PDF/PPT) to present your findings to the leadership team. The report should include the following sections:
+
+Project Description
+Provide a brief overview of the project, its objectives, and the approach you followed.
+Approach
+Explain your approach to the project and how you executed it, including the specific techniques and tools used.
+Tech-Stack Used
+Specify the software and its version (e.g., Microsoft Excel 2022) and mention the purpose of using it.
+Insights
+Summarize the insights and knowledge gained during the project. Discuss key findings and any meaningful trends or patterns discovered.
+Result
+Describe what you achieved through the project and how it has contributed to your understanding of the IMDB Movie Analysis.
+Drive Link
+Save your report as a PDF file and upload it to your Google Drive. Set the link visibility to public and provide the sharable link within the report.
+Hyperlink the Excel Sheet file to your report:
+
+Note: Kindly make sure that you hyperlink the excel file or the link of the google excel sheet to your report. If you want to know the steps, read below:
+
+Step 1: Open your Google Drive account and locate the file you want to link to in your presentation. Right-click on the file and select "Get link." Make sure that the sharing settings for the file are set to "Anyone with the link can view" or "Anyone with the link can edit," depending on your preference.
+
+Step 2: In PowerPoint, navigate to the slide where you want to insert the hyperlink. Highlight the text or object that you want to turn into a hyperlink.
+
+Step 3: Click the "Insert" tab in the top menu bar, then select "Hyperlink."
+
+Step 4: In the "Insert Hyperlink" dialog box, paste the Google Drive link you copied in step 1 into the "Address" field.
+
+Step 5: Click "OK" to insert the hyperlink. You should now see that the text or object you selected in step 2 has been turned into a hyperlink.
+
+Step 6: To test the hyperlink, go into presentation mode by pressing F5 or clicking the "Slide Show" tab and selecting "From Beginning." Click on the hyperlink you just created to make sure it takes you to the correct Google Drive file.
+
+Hyperlink any file in PDF:  Write the project in Ms. Word, format it exactly the way it is instructed in the ‘How to do this Project’ Section, and design the document nicely. Add the link to the required file and hyperlink it. Then save the document as PDF.
+
+How to Submit your Project:
+Step 1 Do your project in PPT/PDF. It’s your choice. For PDF, write your project in Ms Word, then save the file in PDF format. You will find the option in the ‘Save As’ Box.
+
+Step 2 Now, upload the file i.e., PPT/PDF on your google drive. It would be wise to create a Single Folder and Name it “Trainity Assignments”. Inside that folder, create another Folder name “Project Name”. Upload your assignment there.
+
+Step 3 Right Click on the File, and select ‘Get Link’ under ‘Share’. A Dialog Box will Pop up. Inside the Box, Under General Access, Change ‘Restricted’ to ‘Anyone with the Link’. No need to change anything else.
+
+Step 4 Click on ‘Copy Link’.
+
+Step 5 Now paste the link in the Drive Link box when submitting the project.
+
+
+
+
+
+
+Guidelines for the Video Presentation:
+The candidate has to explain how he/she solved this project and also has to present both the excel sheet and the ppt too.
+It is mandatory to use a webcam so that we know that it is the candidate who is explaining the project.
+Check the Link for Further Assistance: https://burly-lifter-641.notion.site/Video-Presentation-Guide-fda30451eca4474eb79c7b39c87ffb71?pvs=4
+
+
+
+
+
+
+Judgement Criteria:
+Data Analytics
+Your answers should demonstrate a strong understanding of data analysis principles. Ensure that your responses include relevant points related to the dataset and provide real-world case scenarios when applicable.
+Advanced Excel Understanding
+Your Excel spreadsheet should showcase your proficiency in using advanced features such as pivot tables, functions, and formulas. Clearly explain the processes you have used and provide step-by-step explanations to enhance understanding.
+Statistics Understanding
+Incorporate statistical concepts into your analysis. Utilize graphs and provide references to statistical measures such as mean, median, standard deviation, and correlation coefficients to support your findings.
+Case study completion
+Answer all questions in the case study thoroughly, ensuring that your responses are accurate and complete. Address each aspect of the given situations and provide well-reasoned explanations.
+Insights
+Demonstrate your ability to think critically and provide insightful interpretations of the data. Use your imagination to extract meaningful insights that go beyond simple observations.
+Plagiarism
+The project must be entirely your own work. Do not copy any content from the internet or other sources. Use proper citation and references when necessary to acknowledge external resources appropriately.s
+Evaluation will be based on the overall quality of your analysis, the accuracy of your answers, the clarity of your explanations, the depth of your insights.
+
+
+
+
+
+
+
+task A
+Movie Genre Analysis Insights
+Performing a movie genre analysis involves examining the distribution of genres and their impact on IMDB scores. Here are the key insights you can draw from such an analysis:
+Genre Popularity:
+Identify the most common genres in the dataset.
+
+Insight: Understanding which genres are most frequently produced can help stakeholders know what type of movies are currently popular or in demand.
+Genre Performance:
+Calculate the mean, median, mode, range, variance, and standard deviation of IMDB scores for each genre.
+Insight: Determine which genres tend to receive higher IMDB scores. This can inform producers and directors about genres that are likely to be critically successful.
+Distribution of Scores by Genre:
+Plot histograms or box plots for the IMDB scores of each genre.
+Insight: Visualize the spread and central tendency of scores for each genre to see if certain genres have more consistent performance compared to others.
+Top-Performing Genres:
+Identify genres with the highest average IMDB scores.
+Insight: Highlight which genres are most favored by critics and audiences, potentially guiding future investment decisions.
+Outliers and Exceptional Performances:
+Identify outliers within genres, such as exceptionally high or low-rated movies.
+Insight: Understand the characteristics of outlier movies, which can provide lessons on what makes a movie exceptionally good or bad within a genre.
+Genre Combinations:
+Analyze how combinations of genres perform compared to single-genre movies.
+Insight: Multi-genre movies might attract wider audiences or cater to niche markets. For example, a combination of "Action" and "Comedy" might perform differently than "Action" or "Comedy" alone.
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+task B
+
+Here we will analyze the distribution of movie durations and their impact on IMDB scores using Excel 
+Mean Duration:
+Mean Duration: 109.92 minutes
+Insight: The average duration of movies in the dataset is approximately 110 minutes. This suggests that the typical movie length in the dataset is around 1 hour and 50 minutes, which is a common length for feature films.
+Median Duration:
+Median Duration: 106 minutes
+Insight: The median duration, slightly lower than the mean, indicates that half of the movies have a duration shorter than 106 minutes. This suggests a slight skew towards longer movies, but overall, the distribution of movie durations is fairly balanced around this central value.
+Standard Deviation of Duration:
+Standard Deviation: 22.75 minutes
+Insight: The standard deviation indicates that most movie durations fall within approximately 23 minutes of the mean duration. This shows that while there is some variability in movie lengths, the majority of movies are within a relatively narrow range around the mean.
+
+
+
+
+
+Example Summary for a Report or Presentation task 2
+Summary: The movie duration analysis of our dataset revealed that the average movie length is approximately 110 minutes, with a median of 106 minutes and a standard deviation of about 23 minutes. This indicates that most movies are around this length, with some variability.
+The scatter plot and trendline analysis show a positive linear relationship between movie duration and IMDB scores, suggesting that longer movies tend to receive higher ratings. This insight is valuable for filmmakers and producers when planning the duration of their movies, as it indicates that audiences and critics may associate longer runtimes with higher quality or more engaging content.
+These findings can guide strategic decisions in movie production, although further analysis could explore whether this trend varies across different genres, budgets, and directors.
+
+-----------------------------------------------------------------------------------------------------
+task C
+
+Understanding and calculating measures such as mean, median, and standard deviation is crucial in data analysis for several reasons. Here's why each of these measures is important in the context of analyzing the IMDB dataset based on language:
+
+1. Mean (Average)
+Purpose: The mean provides a central value for the data, representing the "average" score.
+Importance:
+Insight: It helps to understand the overall trend or central tendency of the IMDB scores for movies in each language. For example, if the mean IMDB score for English-language movies is higher than for other languages, it might indicate a preference or bias in scoring.
+2. Median
+Purpose: The median represents the middle value in the dataset when it is ordered.
+Importance:
+Insight: It is particularly useful in skewed distributions as it is not affected by extreme values (outliers) as much as the mean. For example, if the median IMDB score is significantly different from the mean, it suggests the presence of outliers or a skewed distribution in the scores.
+3. Standard Deviation
+Purpose: The standard deviation measures the amount of variation or dispersion in a set of values.
+Importance:
+
+Insight: It provides information on the spread of the IMDB scores around the mean. A high standard deviation indicates that the scores are spread out over a wider range of values, while a low standard deviation indicates that the scores are closer to the mean. For example, a high standard deviation in the IMDB scores for French-language movies might indicate a wider range of opinions or quality among these movies.
+Application in the IMDB Dataset Analysis
+When analyzing the distribution of movies based on language and their impact on IMDB scores:
+
+Mean: By calculating the mean IMDB score for each language, we can identify which languages tend to have higher-rated movies on average. This can provide insights into cultural preferences or production quality associated with different languages.
+
+Median: The median IMDB score for each language helps to understand the central tendency without the influence of outliers. If the mean and median are close, it indicates a symmetrical distribution of scores. If they are far apart, it suggests skewness.
+
+Standard Deviation: Understanding the standard deviation helps to gauge the consistency of movie ratings within each language category. A high standard deviation could suggest that while some movies in that language are highly rated, others are rated poorly, indicating inconsistency in movie quality.
+
+Example Insight
+Suppose your analysis shows the following:
+
+Mean IMDB score: English (7.5), French (6.8), German (7.2)
+Median IMDB score: English (7.6), French (7.0), German (7.1)
+Standard deviation: English (1.2), French (1.5), German (1.0)
+Interpretation:
+
+English movies tend to have the highest average IMDB scores, suggesting they are generally well-received.
+The median scores are close to the mean scores, indicating a fairly symmetric distribution for all languages.
+The standard deviation for French movies is the highest, indicating a greater variability in the ratings of French movies. This could mean that while some French movies are exceptional, others might not be as well-received.
+Conclusion
+By calculating and interpreting these measures, you gain a comprehensive understanding of the data's distribution and can draw meaningful conclusions about the factors affecting movie ratings. This helps in making data-driven decisions and providing actionable insights to stakeholders.
+
+
+
+-----------------------------------------------------------------------------------------------------
+task D
+
+Significance and Insights from Director Analysis
+Analyzing the influence of directors on movie ratings can provide several valuable insights, including:
+
+1. Identification of Top Performers
+Top Directors: By calculating the average IMDB score for each director, you can identify which directors consistently produce highly-rated movies. This helps in recognizing industry leaders and influential filmmakers.
+Percentile Rank: Understanding the percentile rank of each director’s average score places their performance in context relative to the entire dataset, allowing you to identify which directors are in the top echelons of their field.
+2. Understanding Consistency and Reliability
+Standard Deviation: The standard deviation of IMDB scores for each director shows how consistent they are in producing high-quality movies. A low standard deviation indicates a director whose movies consistently receive similar ratings, suggesting reliability in their work.
+Median IMDB Score: The median score provides a more robust measure of central tendency than the mean, particularly in the presence of outliers. This helps in understanding the typical performance of a director’s movies.
+3. High-Performing Outliers
+90th Percentile IMDB Score: Analyzing the 90th percentile IMDB score reveals the peak performance of a director’s movies. This shows the highest quality work they have produced and helps identify which directors occasionally achieve exceptional success.
+
+4. Contribution to Success
+Number of Movies: By looking at the number of movies each director has made, you can contextualize their average rating. Directors with fewer movies might have high average ratings due to a smaller sample size, while prolific directors maintaining high average ratings demonstrate consistent success over many projects.
+
+Detailed Insights
+Strategic Decision-Making for Production Studios:
+
+Investment Decisions: Studios can use this analysis to decide which directors to collaborate with for future projects. Investing in directors with high average scores and low standard deviation ensures a higher likelihood of producing successful films.
+Talent Acquisition: Identifying emerging directors with high ratings but fewer movies can help studios nurture new talent.
+Marketing and Promotion:
+
+Highlighting Top Directors: Films directed by high-performing directors can be marketed more aggressively, leveraging the director’s reputation to attract audiences.
+Festival Selections: Understanding which directors produce highly-rated films can guide selections for film festivals and award submissions.
+Risk Management:
+
+Minimizing Financial Risk: By choosing directors with consistent high ratings (low standard deviation), studios can minimize the risk of producing poorly-rated movies, which might lead to financial losses.
+Project Allocation: Assigning directors based on their historical performance can ensure that high-budget projects are managed by directors with proven track records.
+Academic and Industry Research:
+
+Film Studies: Researchers can use this data to study trends in filmmaking, understanding what attributes of directors contribute to higher movie ratings.
+Industry Reports: Reports and publications can analyze director performance to inform broader industry trends and predictions.
+Example Interpretation:
+Director A:
+Average IMDB Score: 7.85
+Number of Movies: 10
+Median IMDB Score: 7.8
+Standard Deviation: 0.5
+90th Percentile IMDB Score: 8.2
+Percentile Rank: 95
+Insight: Director A is highly consistent with an average score of 7.85 and a low standard deviation of 0.5. Their high percentile rank (95) indicates they are among the top directors. The 90th percentile score of 8.2 suggests that they occasionally produce exceptional movies.
+
+Director B:
+Average IMDB Score: 6.8
+Number of Movies: 15
+Median IMDB Score: 6.7
+Standard Deviation: 0.7
+90th Percentile IMDB Score: 7.4
+Percentile Rank: 80
+Insight: Director B has a lower average score (6.8) compared to Director A, with a higher standard deviation (0.7), indicating less consistency. Despite this, they are still within the 80th percentile, showing they perform better than many others. Their 90th percentile score of 7.4 indicates they have the potential for high performance, but less frequently.
+
+Conclusion:
+Performing this analysis provides a comprehensive view of each director’s impact on movie ratings. It helps in making informed decisions in production, marketing, and research, ensuring that resources are allocated effectively to maximize the success and quality of film projects.
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+task E
+
+
+### Significance/Insights for Budget Analysis in Movie Data
+
+#### 1. **Understanding Financial Success**
+Analyzing the relationship between movie budgets and their financial success is crucial for several reasons:
+
+1. **Investment Decisions**:
+   - **Informed Investments**: Understanding which types of movies tend to have higher returns on investment (ROI) helps producers and investors make more informed decisions.
+   - **Risk Management**: Identifying budget ranges that correlate with higher profits can help mitigate financial risks.
+
+2. **Resource Allocation**:
+   - **Optimized Budgeting**: Insight into budget effectiveness allows studios to allocate resources more efficiently, ensuring that funds are invested where they are most likely to yield high returns.
+   - **Strategic Planning**: Strategic allocation of funds can be planned based on historical data of successful budget-to-earnings ratios.
+
+#### 2. **Key Metrics and Their Importance**
+
+1. **Correlation Coefficient**:
+   - **Relationship Insight**: The correlation coefficient indicates how closely the movie budget and gross earnings are related. A strong positive correlation suggests that higher budgets often result in higher earnings, whereas a weak or negative correlation might indicate other factors at play.
+   - **Predictive Value**: Knowing the correlation helps in predicting potential earnings based on the budget, aiding in financial forecasting and planning.
+
+2. **Profit Margin Calculation**:
+   - **Profitability Analysis**: Calculating the profit margin for each movie helps in assessing the actual financial success beyond just gross earnings. It reveals how much profit a movie made relative to its cost.
+   - **Performance Benchmarking**: Identifying the movies with the highest profit margins allows studios to benchmark performance and set financial targets for future projects.
+
+#### 3. **Strategic Insights**
+
+1. **Investment Focus**:
+   - **High ROI Movies**: By identifying directors or genres associated with high-profit margins, studios can focus on producing similar types of movies that have historically performed well.
+   - **Balanced Portfolios**: Studios can create a balanced portfolio of movies, mixing high-budget projects with lower-budget ones to diversify risk and maximize overall profitability.
+
+2. **Market Trends**:
+   - **Trend Analysis**: Understanding how budget correlates with earnings over time can help identify market trends, such as increasing costs for high returns or the success of low-budget independent films.
+   - **Audience Preferences**: Insights into which budget ranges yield the highest returns can also reflect audience preferences and spending habits, guiding marketing and distribution strategies.
+
+3. **Competitive Advantage**:
+   - **Data-Driven Decisions**: Studios that leverage such detailed financial analyses can gain a competitive advantage by making data-driven decisions that optimize profitability.
+   - **Innovation and Creativity**: Insights from budget analysis can encourage studios to explore innovative and creative approaches within budget constraints, leading to unique and potentially successful projects.
+
+### Conclusion
+
+Performing budget analysis and understanding its insights are essential for:
+
+- Making informed investment and budgeting decisions.
+- Optimizing resource allocation.
+- Benchmarking movie performance.
+- Identifying market trends and audience preferences.
+- Gaining a competitive advantage through data-driven strategies.
+
+By using the correlation coefficient and profit margin calculations, studios can better understand the financial dynamics of movie production and maximize their chances of success in a competitive industry.
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+Video Presentation Script
+------------------------------------------------------------------------------------------------------
+Introduction (30 seconds)
+
+"Hello everyone! My name is [Your Name], and I'm excited to share my project with you today. The objective of my project is to analyze the factors that influence the success of movies on IMDB. We'll explore what makes a movie highly rated and how various factors like genre, budget, and directors impact a movie's rating. For this project, I used WPS Office for data analysis and visualization."
+
+Project Overview (1 minute)
+
+"Let's begin with a high-level overview of the project. The project follows a structured workflow starting with data preprocessing, followed by detailed data analysis, and finally drawing actionable insights.
+
+Data Preprocessing: We handled missing values, removed duplicates, and converted data types to ensure the dataset was clean and ready for analysis.
+Data Analysis: This involved investigating relationships between movie ratings and factors like genre, budget, and director. We used descriptive statistics and visualizations to uncover patterns.
+Key Data Source: Our primary dataset is IMDB_Movies.csv, which contains information on various aspects of movies, including ratings, genres, budgets, and more."
+Data Analysis and Insights (1.5 minutes)
+
+"Now, let's dive into the main findings and insights from our data analysis.
+
+Genre Analysis: We found that genres like Biography, Animation, and Drama have higher average IMDB scores. For instance, Biography movies have an average score of 7.15, indicating a strong viewer preference for real-life stories.
+
+Budget Analysis: There is a positive correlation between movie budgets and gross earnings. Higher budgets typically lead to better marketing and production quality, which in turn attract more viewers and increase earnings.
+
+Director Analysis: Movies directed by certain directors consistently receive higher ratings. These directors have a unique vision and expertise that resonate well with audiences.
+
+Here's a visualization of the relationship between movie duration and IMDB score, which shows a trend that moderately longer movies tend to have higher ratings."
+
+[Show scatter plot of movie duration vs IMDB score with trendline]
+
+Code Demonstration (1.5 minutes)
+
+"Next, let's take a look at the code behind the analysis.
+
+Data Cleaning: This section handles missing values and removes duplicates to ensure data quality.
+[Show code snippet for data cleaning]
+
+Genre Analysis: This part splits genres and calculates descriptive statistics for IMDB scores by genre.
+[Show code snippet for genre analysis]
+
+Visualization: Here, we create scatter plots to visualize relationships, like the one between movie duration and IMDB score.
+[Show code snippet for scatter plot]
+
+One challenge we faced was handling movies with multiple genres. We addressed this by splitting the genre column into individual genres and analyzing them separately."
+
+Results and Conclusion (30 seconds)
+
+"In summary, the project successfully identified key factors influencing movie success on IMDB. Genres like Biography and Animation, higher budgets, and certain directors contribute significantly to higher ratings. This analysis can help movie producers, directors, and investors make informed decisions to enhance movie success.
+
+While the project provided valuable insights, future improvements could include deeper analysis of other factors like actor popularity and social media presence."
+
+Closing and Call to Action (30 seconds)
+
+"Thank you for watching! I hope you found this presentation insightful. If you have any questions or would like to discuss the project further, feel free to contact me at [Your Email] or visit [Your LinkedIn/Profile Link]. I look forward to your feedback and engaging in more discussions on this topic. Have a great day!"
+
+Remember to practice delivering this script while sharing your screen to show visual aids and code snippets. This will help you stay within the time limit and make your presentation more engaging.
