@@ -1,0 +1,174 @@
+ABC Call Volume Trend Analysis
+Final Project-4
+Difficulty Level:     5/5
+Description:
+In this project, you'll be diving into the world of Customer Experience (CX) analytics, specifically focusing on the inbound calling team of a company. You'll be provided with a dataset that spans 23 days and includes various details such as the agent's name and ID, the queue time (how long a customer had to wait before connecting with an agent), the time of the call, the duration of the call, and the call status (whether it was abandoned, answered, or transferred).
+
+A Customer Experience (CX) team plays a crucial role in a company. They analyze customer feedback and data, derive insights from it, and share these insights with the rest of the organization. This team is responsible for a wide range of tasks, including managing customer experience programs, handling internal communications, mapping customer journeys, and managing customer data, among others.
+
+In the current era, several AI-powered tools are being used to enhance customer experience. These include Interactive Voice Response (IVR), Robotic Process Automation (RPA), Predictive Analytics, and Intelligent Routing.
+
+One of the key roles in a CX team is that of the customer service representative, also known as a call center agent. These agents handle various types of support, including email, inbound, outbound, and social media support.
+
+Inbound customer support, which is the focus of this project, involves handling incoming calls from existing or prospective customers. The goal is to attract, engage, and delight customers, turning them into loyal advocates for the business.
+
+Business Understanding:
+Advertising is a crucial aspect of any business. It helps increase sales and makes the audience aware of the company's products or services. The first impressions of a business are often formed through its advertising efforts.
+
+The target audience for businesses can be local, regional, national, or international. Various types of advertising are used to reach these audiences, including online directories, trade and technical press, radio, cinema, outdoor advertising, and national papers, magazines, and TV.
+
+The advertising business is highly competitive, with many players bidding large amounts of money to target the same audience segment. This is where the company's analytical skills come into play. The goal is to identify those media platforms that can convert audiences into customers at a low cost.
+
+In this project, you'll be using your analytical skills to understand the trends in the call volume of the CX team and derive valuable insights from it.
+
+Further Study on CX Analytics: https://burly-lifter-641.notion.site/Notes-on-CX-Analytics-d07f6f9c16e44817a743c60693af9c3d?pvs=4
+
+Data Analytics Tasks:
+You have been provided with a dataset that contains information about the inbound calls received by a company named ABC, which operates in the insurance sector. Your task is to use this data to answer the following questions:
+
+Average Call Duration: Determine the average duration of all incoming calls received by agents. This should be calculated for each time bucket.
+Your Task: What is the average duration of calls for each time bucket?
+
+Call Volume Analysis: Visualize the total number of calls received. This should be represented as a graph or chart showing the number of calls against time. Time should be represented in buckets (e.g., 1-2, 2-3, etc.).
+Your Task: Can you create a chart or graph that shows the number of calls received in each time bucket?
+
+Manpower Planning: The current rate of abandoned calls is approximately 30%. Propose a plan for manpower allocation during each time bucket (from 9 am to 9 pm) to reduce the abandon rate to 10%. In other words, you need to calculate the minimum number of agents required in each time bucket to ensure that at least 90 out of 100 calls are answered.
+Your Task: What is the minimum number of agents required in each time bucket to reduce the abandon rate to 10%?
+
+Night Shift Manpower Planning: Customers also call ABC Insurance Company at night but don't get an answer because there are no agents available. This creates a poor customer experience. Assume that for every 100 calls that customers make between 9 am and 9 pm, they also make 30 calls at night between 9 pm and 9 am. The distribution of these 30 calls is as follows:
+Your Task: Propose a manpower plan for each time bucket throughout the day, keeping the maximum abandon rate at 10%.
+
+Assumptions: An agent works for 6 days a week; On average, each agent takes 4 unplanned leaves per month; An agent's total working hours are 9 hours, out of which 1.5 hours are spent on lunch and snacks in the office. On average, an agent spends 60% of their total actual working hours (i.e., 60% of 7.5 hours) on calls with customers/users. The total number of days in a month is 30.
+
+
+How to do this Project?
+Download the dataset: Begin by downloading the dataset provided for the project. Ensure that you have access to Microsoft Excel for data analysis.
+Perform Analysis: Use Excel to perform the analysis and answer the questions mentioned in the project details.
+Submit a Report: Create a report (PDF/PPT) to present your findings to the leadership team. The report should include the following sections:
+
+Project Description
+Provide a brief overview of the project, its objectives, and the approach you followed.
+Approach
+Explain your approach to the project and how you executed it, including the specific techniques and tools used.
+Tech-Stack Used
+Specify the software and its version (e.g., Microsoft Excel 2022) and mention the purpose of using it.
+Insights
+Summarize the insights and knowledge gained during the project. Discuss key findings and any meaningful trends or patterns discovered.
+Result
+Describe what you achieved through the project and how it has contributed to your understanding of the ABC Call Volume Trend Analysis.
+Drive Link
+Save your report as a PDF file and upload it to your Google Drive. Set the link visibility to public and provide the sharable link within the report.
+Hyperlink the Excel Sheet file to your report:
+
+Note: Kindly make sure that you hyperlink the excel file or the link of the google excel sheet to your report. If you want to know the steps, read below:
+
+Step 1: Open your Google Drive account and locate the file you want to link to in your presentation. Right-click on the file and select "Get link." Make sure that the sharing settings for the file are set to "Anyone with the link can view" or "Anyone with the link can edit," depending on your preference.
+
+Step 2: In PowerPoint, navigate to the slide where you want to insert the hyperlink. Highlight the text or object that you want to turn into a hyperlink.
+
+Step 3: Click the "Insert" tab in the top menu bar, then select "Hyperlink."
+
+Step 4: In the "Insert Hyperlink" dialog box, paste the Google Drive link you copied in step 1 into the "Address" field.
+
+Step 5: Click "OK" to insert the hyperlink. You should now see that the text or object you selected in step 2 has been turned into a hyperlink.
+
+Step 6: To test the hyperlink, go into presentation mode by pressing F5 or clicking the "Slide Show" tab and selecting "From Beginning." Click on the hyperlink you just created to make sure it takes you to the correct Google Drive file.
+
+Hyperlink any file in PDF:  Write the project in Ms. Word, format it exactly the way it is instructed in the ‘How to do this Project’ Section, and design the document nicely. Add the link to the required file and hyperlink it. Then save the document as PDF.
+
+Guidelines for the Video Presentation:
+The candidate has to explain how he/she solved this project and also has to present both the excel sheet and the ppt too.
+It is mandatory to use a webcam so that we know that it is the candidate who is explaining the project.
+Check the Link for Further Assistance: https://burly-lifter-641.notion.site/Video-Presentation-Guide-fda30451eca4474eb79c7b39c87ffb71?pvs=4
+
+Judgement Criteria:
+Data Analytics
+Your responses should reflect a thorough understanding of data analysis principles and should incorporate real-world scenarios based on the ABC company's inbound call dataset.
+Advanced Excel Understanding
+Your Excel workbook should clearly demonstrate your proficiency in advanced Excel techniques. This includes the use of pivot tables, complex functions, formulas, and conditional formatting.
+Statistics Understanding
+Your responses should incorporate appropriate statistical analyses. This could include descriptive statistics, hypothesis testing, regression analysis, or any other relevant statistical techniques.
+Case study completion
+All questions posed in the case study should be fully and accurately answered. Your responses should include appropriate explanations and justifications for your conclusions.
+Insights
+Your analysis should yield actionable insights that address the business problem at hand. You should provide recommendations for manpower planning to reduce call abandonment rate and improve customer experience.
+Plagiarism
+The project you submit should be your own original work. Plagiarism will not be tolerated. If you refer to external sources, you should provide proper citations and references.
+These criteria will be used to assess your project. They will help determine the quality of your analysis, your understanding of advanced Excel techniques, your knowledge of statistics, the completeness of your responses to the case study, and the insights you generate.
+###################################################################################################################################
+Slide 4: Insights
+Title:
+Key Insights
+
+Content:
+
+Call Volume Trends:
+
+Peak call times were observed between 10 am and 12 pm.
+A significant drop in call volume after 6 pm.
+Call Duration:
+
+The average call duration was consistent across most time buckets, with slight increases during peak hours.
+Manpower Planning:
+
+Adjusting the number of agents during peak times can significantly reduce the call abandonment rate.
+Night shift planning is crucial to improve customer experience during off-hours.
+Customer Experience:
+
+Addressing high call volumes and optimizing manpower can lead to a significant improvement in customer satisfaction.
+Slide 5: Results
+Title:
+Project Results
+
+Content:
+
+Achievements:
+
+Successfully analyzed and visualized call volume trends, leading to actionable insights for manpower planning.
+Proposed a strategic plan to reduce call abandonment rates to 10% during peak hours.
+Developed a night shift manpower plan to ensure better service during off-hours.
+Contribution:
+
+Enhanced understanding of customer experience analytics and the importance of data-driven decisions in optimizing call center operations.
+Provided a foundation for further analysis and decision-making in customer service management.
+
+
+#################################################################################################################################
+
+Slide 4: Insights
+Title:
+Key Insights
+
+Content:
+
+Call Volume Trends:
+
+Peak call times were observed between 10 am and 12 pm.
+A significant drop in call volume after 6 pm.
+Call Duration:
+
+The average call duration was consistent across most time buckets, with slight increases during peak hours.
+Manpower Planning:
+
+Adjusting the number of agents during peak times can significantly reduce the call abandonment rate.
+Night shift planning is crucial to improve customer experience during off-hours.
+Customer Experience:
+
+Addressing high call volumes and optimizing manpower can lead to a significant improvement in customer satisfaction.
+
+
+
+
+task 3 
+Insight:
+Peak Hours: You might observe that certain time buckets require more agents due to higher call volumes.
+Resource Allocation: This calculation will help in allocating the right number of agents to ensure the abandon rate is reduced to 10%.
+
+task 4
+Insight:
+Impact on Customer Experience: Providing adequate night shift coverage is crucial to improve customer satisfaction and reduce the number of abandoned calls.
+Resource Management: Effective planning will ensure that the night shift is sufficiently staffed without overburdening the agents.
+
+
+
+
