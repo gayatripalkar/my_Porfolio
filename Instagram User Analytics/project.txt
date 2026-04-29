@@ -75,10 +75,3 @@ Step 5 Now paste the link in the Drive Link box when submitting the project.
 Judgement Criteria:
 SQL Understanding
 The SQL queries used should produce correct outputs and be easily understandable. Ensure that the queries are accurate, efficient, and properly structured to extract the required information from the database.
-Case study completion
-Answer all the questions provided in the project description fully and accurately. Make sure to address each question comprehensively, providing correct and relevant answers.
-Insights
-Utilize your own imagination and analytical skills to answer the case study questions while adding your own insights and interpretations. Demonstrate creativity and critical thinking in deriving meaningful conclusions from the data.
-Plagiarism
-The project must be your original work and should not be copied from the internet or any other source. Ensure that the analysis, findings, and report are based on your own analysis, interpretation, and visualization skills.
-These criteria will be used to evaluate your project. Make sure to follow the instructions, showcase your SQL expertise, complete the case study, provide valuable insights, and submit original work.
