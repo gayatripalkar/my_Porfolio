@@ -82,21 +82,7 @@ Drive Link
 Save your report as a PDF file and upload it to your Google Drive. Include the shareable link (with public visibility) in your report. Check the detailed steps below for submission.
 Note: Make sure you mention the SQL Queries along with the outputs in the report. You can take snapshots of the SQL Queries and the outputs. It is advised to do the project in MySQL Workbench.
 
-How to Submit your Project:
-Step 1 Do your project in PPT/PDF. It’s your choice. For PDF, write your project in Ms Word, then save the file in PDF format. You will find the option in the ‘Save As’ Box.
 
-Step 2 Now, upload the file i.e., PPT/PDF on your google drive. It would be wise to create a Single Folder and Name it “Trainity Assignments”. Inside that folder, create another Folder name “Project Name”. Upload your assignment there.
-
-Step 3 Right Click on the File, and select ‘Get Link’ under ‘Share’. A Dialog Box will Pop up. Inside the Box, Under General Access, Change ‘Restricted’ to ‘Anyone with the Link’. No need to change anything else.
-
-Step 4 Click on ‘Copy Link’.
-
-Step 5 Now paste the link in the Drive Link box when submitting the project.
-
-Judgement Criteria:
-SQL Understanding
-The SQL queries used should provide correct outputs and be easily understandable. Ensure that the queries are accurate, efficient, and well-structured.
-Case study completion
 All the questions presented in the case studies must be answered completely with accurate responses. Address each question thoroughly, demonstrating your understanding of the analysis required.
 Insights
 Use your own imagination and creativity to answer the case study questions, providing insightful and meaningful observations and recommendations. Think beyond the obvious and showcase your ability to derive valuable insights from the data.
